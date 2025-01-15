@@ -69,6 +69,8 @@ Expands a shorthand CSS property into its full equivalent properties.
 - **`expandProperties`**: An object containing the expanded properties as keys, with their corresponding value from the `value` parameter.
 - **`undefined`**: If the shorthand property is not recognized, or if the length of `value` doesn’t match the number of expanded properties.
 
+see more APIs on [docs](https://github.com/doosoom-dev/shorthand-css)
+
 ## 🤝 Contributing
 
 welcome contributions from the community to improve **shorthand-css**! 🎉

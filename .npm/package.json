@@ -10,7 +10,7 @@
             "default": "./dist/shorthand-css.cjs.js"
         }
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A utility library for expanding CSS shorthand properties to their full equivalents.",
     "author": {
         "name": "doosoom-dev",
