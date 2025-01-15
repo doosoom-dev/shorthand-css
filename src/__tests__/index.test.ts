@@ -24,8 +24,8 @@ describe('expand', () => {
     });
 
     it('If the property exists and no value is specified, only the longhands value is returned.', () => {
-        expect(ShorthandCSS.expand('border')).toStrictEqual(['-width', '-style', '-color']);
-        expect(ShorthandCSS.expand('mask-border')).toStrictEqual(['-mode', '-outset', '-repeat', '-slice', '-source', '-width']);
+        expect(ShorthandCSS.expand('border')).toStrictEqual(['border-width', 'border-style', 'border-color']);
+        expect(ShorthandCSS.expand('mask-border')).toStrictEqual(['mask-border-mode', 'mask-border-outset', 'mask-border-repeat', 'mask-border-slice', 'mask-border-source', 'mask-border-width']);
     });
 
     it('If the property exists and has a value, returns a map with the expanded properties.', () => {

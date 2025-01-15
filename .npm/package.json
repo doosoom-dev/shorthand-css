@@ -1,0 +1,38 @@
+{
+    "name": "shorthand-css",
+    "main": "./dist/shorthand-css.cjs.js",
+    "module": "./dist/shorthand-css.es.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./dist/shorthand-css.cjs.js",
+            "import": "./dist/shorthand-css.es.js",
+            "default": "./dist/shorthand-css.cjs.js"
+        }
+    },
+    "version": "1.0.0",
+    "description": "A utility library for expanding CSS shorthand properties to their full equivalents.",
+    "author": {
+        "name": "doosoom-dev",
+        "url": "https://github.com/doosoom-dev/shorthand-css"
+    },
+    "keywords": [
+        "css",
+        "shorthand",
+        "css-properties",
+        "utility"
+    ],
+    "license": "MIT",
+    "files": [
+        "dist/**/*",
+        "README.md"
+    ],
+    "bugs": {
+        "url": "https://github.com/doosoom-dev/shorthand-css/issues"
+    },
+    "homepage": "https://github.com/doosoom-dev/shorthand-css",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/doosoom-dev/shorthand-css"
+    }
+}
