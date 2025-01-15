@@ -1,5 +1,5 @@
 {
-    "name": "shorthand-css",
+    "name": "shorthand-css-properties",
     "main": "./dist/shorthand-css.cjs.js",
     "module": "./dist/shorthand-css.es.js",
     "types": "./dist/index.d.ts",
